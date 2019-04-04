@@ -1,47 +1,19 @@
 <?php
   session_start();
   if (isset($_SESSION['login_user']) && ($_SESSION['first']==1)) {
+    require_once "config.php";
+    $sql="SELECT `type` FROM `areaofint` WHERE 1";
+    $result=mysqli_query($connection,$sql);
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-
-<?php include('include/head.php'); ?>
-<style>
-          ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-    }
-          li {
-      float: left;
-    }
-          li a {
-      display: inline-block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-          li a:hover {
-      background-color: #111;
-    }
-          .active {
-      background-color: red;
-    }
-        </style>	
+	<?php include('include/head.php'); ?>
 </head>
 <body>
-<header>
-          <ul>
-            <li><a href="logout.php" class="active">Logout</a></li>
-          </ul>
-        </header>
 	<div class="main-container">
 		<div class="pd-ltr-20 customscroll customscroll-10-p height-100-p xs-pd-20-10">
-			
+
 				<!-- Default Basic Forms Start -->
 				<div class="pd-20 bg-white border-radius-4 box-shadow mb-30">
 					<div class="clearfix">
@@ -60,11 +32,14 @@
 							<label class="col-sm-12 col-md-2 col-form-label">Area of Interest</label>
 							<div class="col-sm-12 col-md-10">
 								<select class="custom-select col-12" name="area" required>
-									<option value="type1">type1</option>
-                                <option value="type2">type2</option>
-                                <option value="type3">type3</option>
-                                <option value="type4">type4</option>
-                                <option value="type5">type5</option>
+									<!-- <option value="type1">type1</option> -->
+                  <?php
+                    while($row=mysqli_fetch_row($result)){
+                      ?>
+                      <option value=<?php echo $row[0] ?>><?php echo $row[0] ?></option>
+                      <?php
+                    }
+                   ?>
 								</select>
 							</div>
 						</div>
@@ -100,9 +75,9 @@
                         <div class="modal-footer justify-content-center">
                             <button type="submit" name="" value="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
                         </div>
-						
+
                     </form>
-	
+
 				<!-- Input Validation End -->
     <script type="text/javascript">
           var password = document.getElementById("password");
@@ -126,11 +101,11 @@
   }
  ?>
 
-    
-    
-    
+
+
+
             </div>
-                        
+
 			<?php include('include/footer.php'); ?>
 		</div>
 	</div>
