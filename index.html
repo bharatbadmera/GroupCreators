@@ -10,7 +10,7 @@
   <div id="formContent">
     <!-- Tabs Titles -->
     <h2 class="active"> Sign In </h2>
-    <h2 class="inactive underlineHover">Sign Up </h2>
+
 
     <!-- Icon -->
     <div class="fadeIn first">
@@ -25,9 +25,7 @@
     </form>
 
     <!-- Remind Passowrd -->
-    <div id="formFooter">
-      <a class="underlineHover" href="#">Forgot Password?</a>
-    </div>
+
 
   </div>
 </div>
@@ -37,13 +35,14 @@
 
 /* BASIC */
 
-html {
-  background-color: #56baed;
-}
+
 
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
+  background-image:url("image/background.jpg");
+  background-size:cover;
+background-attachment:fixed;
 }
 
 a {
@@ -59,7 +58,7 @@ h2 {
   font-weight: 600;
   text-transform: uppercase;
   display:inline-block;
-  margin: 40px 8px 10px 8px; 
+  margin: 40px 8px 10px 8px;
   color: #cccccc;
 }
 
@@ -70,7 +69,7 @@ h2 {
 .wrapper {
   display: flex;
   align-items: center;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   min-height: 100%;
@@ -291,7 +290,7 @@ input[type=text]:placeholder,input[type=int]:placeholder,input[type=password]:pl
 
 *:focus {
     outline: none;
-} 
+}
 
 #icon {
   width:60%;
