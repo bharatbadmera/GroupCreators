@@ -23,7 +23,7 @@
 
 <body class="profile-page sidebar-collapse">
 
-  <div class="page-header header-filter" data-parallax="true" style="background-image: url('school3.jpg'); transform: translate3d(0px, 0px, 0px);">
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('image/school3.jpg'); transform: translate3d(0px, 0px, 0px);">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -57,7 +57,7 @@ Help you to determine next steps and develop a plan to achieve your goals.</h5>
               <div class="team-player">
                 <div class="card card-plain">
                   <div class="col-md-6 ml-auto mr-auto">
-                    <img src="baldev.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                    <img src="image/baldev.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                   </div>
                   <h4 class="card-title">Baldev
                     <br>
@@ -78,7 +78,7 @@ Help you to determine next steps and develop a plan to achieve your goals.</h5>
               <div class="team-player">
                 <div class="card card-plain">
                   <div class="col-md-6 ml-auto mr-auto">
-                    <img src="ayush3.PNG" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                    <img src="image/ayush3.PNG" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                   </div>
                   <h4 class="card-title">Ayush Arya
                     <br>
@@ -123,7 +123,7 @@ Help you to determine next steps and develop a plan to achieve your goals.</h5>
                 <div class="team-player">
                   <div class="card card-plain">
                     <div class="col-md-6 ml-auto mr-auto">
-                      <img src="bharat2.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                      <img src="image/bharat2.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                     </div>
                     <h4 class="card-title">Bharat Badmera
                       <br>
