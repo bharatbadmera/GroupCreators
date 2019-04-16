@@ -45,7 +45,8 @@
 Be someone for you to talk to about your thoughts, ideas, feelings, and concerns about your career and educational choices, who will help you sort out, organize, and make sense of your thoughts and feelings.<br>
 Help you identify the factors influencing your career development, and help you assess your interests, abilities, and values.<br>
 Help you locate resources and sources of career information.
-Help you to determine next steps and develop a plan to achieve your goals.</h5>
+Help you to determine next steps and develop a plan to achieve your goals.
+group creator will help you all to create your own story.</h5>
           </div>
         </div>
       </div>
